@@ -1,0 +1,11 @@
+#application: sensycloset
+service: ai-coordinate
+#version: 1
+entrypoint: python app.py
+runtime: custom
+vm: true
+api_version: 1
+threadsafe: false
+
+manual_scaling:
+  instances: 1
